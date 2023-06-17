@@ -1,0 +1,100 @@
+.change-profile-container {
+  color: #373c40;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  height: 100%;
+ 
+  margin: 10px;
+  font-size: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.change-profile-label {
+  padding: 7px 0 7px 0;
+  font-weight: 500;
+  font-size: 10pt;
+}
+
+.change-profile-h1 {
+  font-weight: 200;
+  color: #283618;
+  font-size: 17pt;
+  text-align: center;
+}
+
+form.register {
+  margin: 20px auto 0px auto;
+  background-color: #fff;
+  padding: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.form-group {
+  font-size: 8pt;
+  margin: 0;
+  color: gray;
+  padding: 7px 0 7px 0;
+  font-weight: 500;
+  font-size: 10pt;
+}
+
+form.register legend {
+  color: #283618;
+  padding: 2px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+form.register input {
+  border: 1px solid #e1e1e1;
+}
+
+form.register input[type="radio"] {
+  margin-left: 7px;
+}
+
+form.register select {
+  border: 1px solid #e1e1e1;
+  width: 130px;
+  margin-bottom: 3px;
+  color: #505050;
+  margin-right: 5px;
+}
+
+form.register select.date {
+  width: 40px;
+}
+
+
+
+div.agreement {
+  margin-left: 15px;
+}
+div.agreement label {
+  text-align: left;
+  margin-top: 3px;
+}
+
+#registerButton {
+  background: #283618;
+  padding: 8px 10px 8px;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+}
+
+
+#registerButton:hover{
+    background-color: #445128;
+}

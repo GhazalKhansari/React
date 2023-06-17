@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap");
+
+.product-card-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.container-product {
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  margin: 20px;
+}
+
+.container-product .imgBx {
+  /* position: relative; */
+
+  width: 50%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background: #212121;
+  transition: 0.3s linear; */
+}
+
+/* .container-product .imgBx:before {
+  content: "Nike";
+  position: absolute;
+  top: 0px;
+  left: 24px;
+  color: #000;
+  opacity: 0.2;
+  font-size: 8em;
+  font-weight: 800;
+} */
+
+/* .container-product .imgBx img {
+  width: 100%;
+  height: 100%;
+  transition: 0.9s linear;
+} */
+
+.container-product .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container-product .details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.4em;
+  line-height: 1em;
+  color: #444;
+}
+
+.container-product .details h2 span {
+  font-size: 0.4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.container-product .details p {
+  max-width: 85%;
+  margin-left: 15%;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 36px;
+}
+
+.container-product .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  color: #a2a2a2;
+  float: left;
+}
+.container-product .details button {
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 40px;
+  float: right;
+}
+
+.product-colors span {
+  width: 26px;
+  height: 26px;
+  top: 7px;
+  margin-right: 12px;
+  left: 10px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.black {
+  background: #000;
+}
+
+.red {
+  background: #d5212e;
+}
+
+.orange {
+  background: #f18557;
+}
+
+.product-colors .active:after {
+  content: "";
+  width: 36px;
+  height: 36px;
+  border: 2px solid #000;
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+  left: -5px;
+  top: -5px;
+}
+
+/* responsive */
+@media (max-width: 1080px) {
+  .container-product {
+    height: auto;
+  }
+  .container-product .imgBx {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container-product .imgBx img {
+    /* left: initial; */
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+  .details {
+    width: 100% !important;
+    height: auto;
+    padding: 20px;
+  }
+  .container-product .details p {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+.btnclick {
+  background: white;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 40px;
+  float: right;
+  box-shadow:0 7px 25px -10px rgba(0, 0, 0, 0.33) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem
+
+}
+.bi , .cart:hover{
+  cursor: pointer;
+}
+.inCart{
+  width: 7.5rem;
+  height: 1.5rem;
+  color: #000;
+  margin-top: 6rem;
+  margin-left: 16rem;
+  user-select: none;
+
+
+ 
+}
+ .cartText{
+  color: green;
+  user-select: none;
+ }
